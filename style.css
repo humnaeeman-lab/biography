@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #101A2B;
+}
+hr {
+    width: 85%;
+    border: 0;
+    border-top: 1px solid #D9B875;
+    margin: 30px auto;
+    opacity: 0.5;
+}
+.nav{
+    background-color: #1b2739;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: rgba(25, 38, 58, 0.85);
+    backdrop-filter: blur(10px);
+}
+.nav-link{
+    color: #D9B875;
+    font-size: 18px;
+    font-weight: bold;
+}
+.nav-link:hover{
+    color: #D9B875;
+    font-size: 20px;
+    font-weight: bold;  
+}
+.nav-link :click{
+    color: #D9B875;
+    font-size: 20px;
+}
+ .dropdown-menu{
+    background-color: #D9B875;    
+} 
+.dropdown-item{
+     background-color: #D9B875;
+}
+.dropdown-item:hover {
+    background-color: #D9B875;
+}
+ body {
+        position: relative;
+        height: 100%;
+      }
+.carousel-item {
+    height: 400px;
+     background-color: #101A2B;
+     position: relative;
+}
+.carousel-item img {
+    width: 100%;
+    height: 400px;
+    object-fit: contain;
+      transition: 0.4s ease;
+}
+.carousel-item img:hover{
+ /* filter: brightness(85%); */
+   filter: sepia(35%) brightness(85%);
+}
+.slide-btn {
+    position: absolute;
+    top: 90%;
+    left: 63%;
+    transform: translate(-50%, -50%);
+    border: 2px solid #19263A;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #D9B875;
+}
+h1 {
+    color: #D9B875;
+    text-align: center;
+    margin-top: 20px;
+}
+h3 {
+    color: #D9B875;
+    text-align: LEFT;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+p {
+    color: #f7f6f4;
+    text-align: left;
+    margin-top: 5px;
+    margin-left: 25px;
+    font-size: 20px;
+    text-indent: 30px;
+}
+b {
+    color: #D9B875;
+    text-align: left;
+    margin-top: 5px;
+    margin-left: 25px;
+    font-size: 26px;
+}
+.intro {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.intro-images {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content:center;
+    margin-top: 20px;
+    margin-right: 50px;
+}
+.intro img {
+    width: 500px;
+    height: 400px;
+    object-fit: fill;
+    margin-left: 50px;
+    margin-top: 20px;
+    border: 2px solid #D9B875;
+    border-radius: 10px;
+}
+.intro img:hover {
+    transform: scale(1.05);
+    transition: 0.3s ease;
+}
+.cards {
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 55px;
+     display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+.card {
+    width: 400px;
+    background-color: #19263A;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+.card-content {
+    padding: 15px;
+    color: white;
+}
+.card button {
+    background-color: #D9B875;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+     transition: 0.3s ease;
+}
+.card:hover {
+    transform: scale(1.05);
+}
+.card:hover img {
+    transform: scale(1.1);
+}
+.card button:hover {
+    background-color: #B99A5C;
+}
+a{
+      color: #D9B875;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration:none ;
+}
+a:hover{
+     color: #D9B875;
+    font-size: 20px;
+    font-weight: bold; 
+}
+.footer-container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+     justify-content: space-between;
+      padding: 30px 8%;
+}
+.footer-links{
+     display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.footer-categories{
+  display: flex;
+    flex-direction: column;
+     align-items: flex-start;
+}
+.footer-contact{
+      display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.copyright{
+    color: #D9B875;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+h6{
+    color: #D9B875;
+    font-size: 18px;
+}
+html {
+    scroll-behavior: smooth;
+}
+section {
+    scroll-margin-top: 100px;
+}
+.intro-btn{
+    background-color: #D9B875;
+    border: 3px solid #333435;
+    border-radius: 15px;
+    padding: 10px 20px;
+   font-size: medium;
+   left: 30px;
+}
